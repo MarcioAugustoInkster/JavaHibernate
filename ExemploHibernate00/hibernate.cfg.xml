@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-configuration>
+    <section-facvtory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc.mysql://localhost/exemplo_hibernate_00</property>
+        <property name="hibernate.connection.login">root</property>
+        <property name="hibernate.connection.password"></property>
+    </section-facvtory>
+</hibernate-configuration>
