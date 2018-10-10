@@ -29,8 +29,10 @@ public class Principal {
                     transaction.begin();
                     
                     Sistema sistemaDoKleiton = new Sistema();
-                    sistemaDoKleiton.setNome("Cleiton");
-                    session.save(sistemaDoKleiton);
+                    sistemaDoKleiton.setNome("Kreyton");
+                    //session.save(sistemaDoKleiton);
+                    sistemaDoKleiton.setId(1);
+                    session.update(sistemaDoKleiton);
                     
                     // Insere na Tabela do Base de Dados
                     transaction.commit();
